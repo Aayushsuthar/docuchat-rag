@@ -37,4 +37,4 @@ def search(index, chunks, query_embedding, top_k=4):
         entry = dict(chunks[idx])
         entry["score"] = float(score)
         results.append(entry)
-    return resultsPage_Down
+    return results
